@@ -50,7 +50,7 @@ The platform addresses this challenge by automating report analysis and summary 
 1. Field reports are submitted through the application.
 2. Reports are stored in the database.
 3. AI processing module analyzes report content.
-4. Executive summaries are generated automatically.
+4. Recommmended Actions are generated automatically.
 5. Dashboard visualizes operational insights and trends.
 
 ---
@@ -69,7 +69,6 @@ The platform addresses this challenge by automating report analysis and summary 
 
 * app.py – Main application
 * dashboard.py – Analytics dashboard
-* ai_processor.py – AI summary generation module
 * database.py – Database management
 
 ---
@@ -78,19 +77,18 @@ The platform addresses this challenge by automating report analysis and summary 
 
 ### Dashboard
 
-(Add dashboard screenshot)
+<img width="1466" height="825" alt="dashboard_overview" src="https://github.com/user-attachments/assets/82f3d7ca-e2a0-412d-83b6-ef9a92763a67" />
+
 
 ### Report Submission
 
-(Add report submission screenshot)
+<img width="1441" height="748" alt="report_submission" src="https://github.com/user-attachments/assets/e6fa831c-77ee-4a13-90b0-5f2d8cb9e160" />
 
-### AI Generated Executive Summary
 
-(Add executive summary screenshot)
+### AI Generated Recommended Actions
 
-### Analytics View
+<img width="1412" height="812" alt="recommended_actions" src="https://github.com/user-attachments/assets/b6ed4d1f-1974-4e0b-84a0-cca2a75a2ba8" />
 
-(Add analytics screenshot)
 
 ---
 
