@@ -2,100 +2,137 @@
 
 ## Overview
 
-The Field Operations Debrief Platform is an AI-powered system designed to streamline the collection, analysis, and reporting of field operation activities.
+The Field Operations Debrief Platform is an AI-powered reporting and analytics solution designed to streamline the collection, analysis, and review of field operation reports.
 
-The platform enables teams to submit structured field reports, automatically generate executive summaries using AI, and visualize operational trends through an interactive analytics dashboard.
+The platform enables users to submit operational reports, maintain a centralized report repository, generate AI-driven recommendations, and visualize key operational insights through an interactive dashboard.
 
 ---
 
 ## Problem Statement
 
-Field operation teams often generate large volumes of reports that require manual review and consolidation.
+Field operation teams generate large volumes of reports that often require manual review and analysis. This process can be time-consuming and makes it difficult for decision-makers to quickly identify operational issues, recurring challenges, and opportunities for improvement.
 
-This process is time-consuming and makes it difficult for decision-makers to quickly identify operational insights, recurring issues, and performance trends.
-
-The platform addresses this challenge by automating report analysis and summary generation.
+The platform addresses this challenge by combining report management, analytics, and AI-generated recommendations to support faster and more informed decision-making.
 
 ---
 
 ## Key Features
 
-### Field Report Management
+### Report Submission
 
-* Submit and store field operation reports
-* Maintain a centralized report database
-* Track operational activities
+* Submit and manage field operation reports
+* Store reports in a centralized database
+* Maintain historical records for future analysis
 
-### AI-Powered Executive Summaries
+### AI-Powered Recommendations
 
-* Generate concise management-ready summaries
-* Extract key observations and findings
-* Reduce manual reporting effort
+* Analyze submitted reports
+* Generate actionable recommendations
+* Highlight operational concerns and suggested next steps
+* Reduce manual review effort
 
 ### Analytics Dashboard
 
-* Visualize operational metrics
-* Monitor trends and patterns
+* Visualize operational trends and metrics
+* Monitor report activity
 * Support data-driven decision making
 
-### Data Management
+### Report Management
 
-* Structured storage and retrieval of reports
-* Dashboard integration with report database
-
----
-
-## System Architecture
-
-1. Field reports are submitted through the application.
-2. Reports are stored in the database.
-3. AI processing module analyzes report content.
-4. Recommmended Actions are generated automatically.
-5. Dashboard visualizes operational insights and trends.
+* View submitted reports
+* Track operational activities
+* Access historical report data
 
 ---
 
 ## Technology Stack
 
-* Python
+### Frontend
+
 * Streamlit
+
+### Backend
+
+* Python
+
+### Database
+
 * SQLite
-* Generative AI
-* Data Visualization
+
+### AI Integration
+
+* Generative AI API Integration
+
+### Data Visualization
+
+* Plotly
+* Streamlit Components
 
 ---
 
 ## Project Structure
 
-* app.py – Main application
-* dashboard.py – Analytics dashboard
-* database.py – Database management
+```text
+field-operations-debrief-platform/
+
+├── app.py
+├── dashboard.py
+├── database.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── .env.example
+│
+└── screenshots/
+```
 
 ---
 
-## Screenshots
+## Dashboard Overview
 
-### Dashboard
+![Dashboard Overview](screenshots/dashboard_overview.png)
 
-<img width="1466" height="825" alt="dashboard_overview" src="https://github.com/user-attachments/assets/82f3d7ca-e2a0-412d-83b6-ef9a92763a67" />
+---
 
+## Report Submission
 
-### Report Submission
+![Report Submission](screenshots/report_submission.png)
 
-<img width="1441" height="748" alt="report_submission" src="https://github.com/user-attachments/assets/e6fa831c-77ee-4a13-90b0-5f2d8cb9e160" />
+---
 
+## Report Overview
 
-### AI Generated Recommended Actions
+![Report Overview](screenshots/report_overview.png)
 
-<img width="1412" height="812" alt="recommended_actions" src="https://github.com/user-attachments/assets/b6ed4d1f-1974-4e0b-84a0-cca2a75a2ba8" />
+---
 
+## AI Generated Recommended Actions
+
+![Recommended Actions](screenshots/recommended_actions.png)
+
+---
+
+## System Workflow
+
+1. Users submit field operation reports.
+2. Reports are stored in the database.
+3. AI analyzes report content.
+4. Recommended actions are generated.
+5. Dashboard visualizes reports and operational insights.
 
 ---
 
 ## Future Enhancements
 
 * Multi-user authentication
+* Role-based access control
 * Advanced trend analysis
 * Automated PDF report generation
-* Real-time operational monitoring
-* LLM-powered conversational analytics
+* Real-time monitoring and alerts
+* Conversational AI assistant for report exploration
+
+---
+
+## Repository Note
+
+API credentials and sensitive configuration details have been excluded from the public repository. Environment variables can be configured using the `.env.example` template.
