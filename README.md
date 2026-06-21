@@ -102,7 +102,7 @@ field-operations-debrief-platform/
 
 ## Report Overview
 
-![Report Overview](screenshots/report_overview.png)
+![Report Overview](screenshots/reports_overview.png)
 
 ---
 
